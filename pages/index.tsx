@@ -7,6 +7,12 @@ import MediumCard from "../components/MediumCard";
 import LargeCard from "../components/LargeCard";
 import Footer from "../components/Footer";
 
+interface ExploreData {
+  img: string;
+  location: string;
+  distance: string;
+}
+
 export default function Home({ exploreData, cardsData }) {
   return (
     <div className="">
